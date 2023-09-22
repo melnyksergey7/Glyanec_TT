@@ -1,0 +1,156 @@
+@import "./variables.scss";
+
+html {
+  font-size: 18px;
+}
+body {
+}
+
+.header {
+  padding-left: 20px;
+  padding-right: 27px;
+  margin: 0 auto;
+  margin-bottom: 250px;
+
+  &__background::before {
+    content: "";
+    background-image: url("../images/header-background.png");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  &__logo-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo {
+    display: flex;
+    width: 80px;
+    height: 80px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 132px;
+  }
+
+  &__first {
+    font-size: 130px;
+    color: $yellow;
+  }
+
+  &__second {
+    font-size: 60px;
+    color: $yellow;
+  }
+
+  &__text {
+    color: $white;
+    font-size: 24px;
+  }
+
+  &__btn {
+    background-color: $yellow;
+    padding: 15.5px 75.5px;
+    border-radius: 30px;
+    width: 316px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  .nav {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    &__item {
+      margin-left: 50px;
+    }
+
+    &__number {
+      font-size: 28px;
+      text-decoration: none;
+      color: $white;
+    }
+
+    &__link {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      margin: 0 auto;
+      color: $white;
+    }
+
+    &__btn-container {
+      display: flex;
+      background-color: $yellow;
+      padding: 15.5px 75.5px;
+      gap: 10px;
+      border-radius: 30px;
+    }
+
+    &__btn {
+      text-decoration: none;
+      color: $black;
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+    }
+
+    &__icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &__content {
+  }
+}
+
+.about {
+  padding-left: 27px;
+  display: flex;
+  justify-content: space-between;
+
+  &__text {
+    background-color: red;
+    padding: 60px 30px;
+    border-radius: 15px;
+  }
+
+  &__header {
+    font-size: 60px;
+  }
+
+  &__images {
+    display: flex;
+    margin: 20px;
+  }
+
+  &__images-container {
+    margin: 0 30px;
+    display: inline-block;
+  }
+
+  &__images-1 {
+    display: flex;
+  }
+
+  &__images-2 {
+    margin-bottom: 30px;
+  }
+}

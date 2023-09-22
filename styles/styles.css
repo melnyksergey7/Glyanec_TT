@@ -1,0 +1,128 @@
+html {
+  font-size: 18px;
+}
+
+.header {
+  padding-left: 20px;
+  padding-right: 27px;
+  margin: 0 auto;
+  margin-bottom: 250px;
+}
+.header__background::before {
+  content: "";
+  background-image: url("../images/header-background.png");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.header__logo-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__logo {
+  display: flex;
+  width: 80px;
+  height: 80px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 132px;
+}
+.header__first {
+  font-size: 130px;
+  color: #FFD324;
+}
+.header__second {
+  font-size: 60px;
+  color: #FFD324;
+}
+.header__text {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.header__btn {
+  background-color: #FFD324;
+  padding: 15.5px 75.5px;
+  border-radius: 30px;
+  width: 316px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.header .nav {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+.header .nav__item {
+  margin-left: 50px;
+}
+.header .nav__number {
+  font-size: 28px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.header .nav__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+.header .nav__btn-container {
+  display: flex;
+  background-color: #FFD324;
+  padding: 15.5px 75.5px;
+  gap: 10px;
+  border-radius: 30px;
+}
+.header .nav__btn {
+  text-decoration: none;
+  color: #1A202C;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.header .nav__icon {
+  width: 24px;
+  height: 24px;
+}
+.about {
+  padding-left: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+.about__text {
+  background-color: red;
+  padding: 60px 30px;
+  border-radius: 15px;
+}
+.about__header {
+  font-size: 60px;
+}
+.about__images {
+  display: flex;
+  margin: 20px;
+}
+.about__images-container {
+  margin: 0 30px;
+  display: inline-block;
+}
+.about__images-1 {
+  display: flex;
+}
+.about__images-2 {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=styles.css.map */
